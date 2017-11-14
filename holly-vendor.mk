@@ -9,3 +9,5 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/huawei/holly/propri
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/huawei/holly/proprietary/xbin,system/xbin)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/huawei/holly/proprietary/priv-app,system/priv-app)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/huawei/holly/proprietary/usr,system/usr)
